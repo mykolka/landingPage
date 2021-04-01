@@ -1,0 +1,858 @@
+@import url("../fonts/Gilroy/stylesheet.css");
+@import url("styleNull.css");
+.footer .allRights, .footer, .connectionForm .connectionForm__content .button, .portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav, .main .main__content-text .main__content-text-button, .main header .header__button-tel, .main .contentContainer .main__contaktsBlock .main__social, .main .contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer__content, .connectionForm .connectionForm__content .inputs, .reviews .reviews__controls .pointers, .reviews .reviews__controls, .portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__controls, .portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__indecators, .portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements, .portfolio .portfolio__content .portfolio__description, .portfolio .portfolio__content, .workSteps .workSteps__content .workSteps__coments, .workSteps .workSteps__content .workSteps__scheme, .aboutAs, .main footer .contentContainer .main__footer-texts .main_footer-texts-box, .main footer .contentContainer .main__footer-texts, .main footer .contentContainer .main__footer-icons, .main footer, .main header .menu, .main header, .main .contentContainer .main__contaktsBlock .main__phones, .main .contentContainer .main__contaktsBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer .footer__content .footer__social, .footer .footer__content .footer__contacts, .footer .footer__content .footer__nav, .footer .footer__content .logoDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.connectionForm .connectionForm__content textarea::-webkit-input-placeholder, .connectionForm .connectionForm__content textarea, .connectionForm .connectionForm__content .inputs input::-webkit-input-placeholder, .connectionForm .connectionForm__content .inputs input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+* {
+  font-family: Gilroy;
+  color: #000000;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100%;
+  background: url("../img/backgrounds/mainBackground.png"), linear-gradient(180deg, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0) 100%);
+  background-size: 100% 100%;
+}
+.main .main__contacts {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  background: rgba(0, 0, 0, 0.31);
+}
+.main .contentContainer {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+.main .contentContainer .main__contaktsBlock {
+  width: 100%;
+  max-width: 550px;
+  justify-content: space-between;
+}
+.main .contentContainer .main__contaktsBlock .main__phones {
+  width: 60%;
+  justify-content: space-around;
+}
+.main .contentContainer .main__contaktsBlock .main__phones a {
+  color: #FFFFFF;
+  display: block;
+}
+.main .contentContainer .main__contaktsBlock .main__social {
+  width: 20%;
+  justify-content: space-around;
+}
+.main header {
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+}
+.main header .logo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 80px;
+  letter-spacing: 0.07em;
+  color: #FF9900;
+}
+.main header .menu {
+  width: 56%;
+  justify-content: space-between;
+}
+.main header .menu .menu-item a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 80px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+}
+.main header .menu .menu-item a:hover {
+  color: #FF9900;
+  border-bottom: 3px solid #FF9900;
+}
+.main header .header__button-tel {
+  height: 37px;
+  width: 166px;
+  border: 2px solid #FF9900;
+  box-sizing: border-box;
+}
+.main header .header__button-tel:hover {
+  cursor: pointer;
+  border: 6px solid #FF9900;
+}
+.main header .header__button-tel a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+  color: #FF9900;
+}
+.main .main__content-text {
+  width: 76%;
+  margin: 0 auto;
+}
+.main .main__content-text h1 {
+  margin-top: 136px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.main .main__content-text p {
+  margin-top: 29px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.main .main__content-text .main__content-text-button {
+  margin-top: 60px;
+  width: 166px;
+  height: 43px;
+  background: #FF9900;
+  box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+}
+.main .main__content-text .main__content-text-button:hover {
+  cursor: pointer;
+  background: #af690c;
+}
+.main .main__content-text .main__content-text-button a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+.main footer {
+  margin-top: 248px;
+  height: 169px;
+  background: rgba(4, 4, 4, 0.4);
+}
+.main footer .contentContainer {
+  position: relative;
+}
+.main footer .contentContainer .main__footer-icons {
+  width: 95%;
+  height: 100%;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 0;
+}
+.main footer .contentContainer .main__footer-texts {
+  position: absolute;
+  width: 100%;
+  justify-content: flex-start;
+  padding-top: -169px;
+  z-index: 1;
+}
+.main footer .contentContainer .main__footer-texts .main_footer-texts-box {
+  width: 95%;
+  height: 100%;
+  justify-content: space-between;
+}
+.main footer .contentContainer .main__footer-texts .main_footer-texts-box .main__footer-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.aboutAs {
+  width: 100%;
+  height: 766px;
+}
+.aboutAs .aboutAs__image {
+  width: 38%;
+  height: 100%;
+  background-image: url("../img/backgrounds/aboutBackground.png");
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.aboutAs .aboutAs__image .leib {
+  width: 238px;
+  height: 220px;
+  background: #FFB800;
+  mix-blend-mode: normal;
+}
+.aboutAs .aboutAs__image .leib .leib-text {
+  padding-top: 12px;
+  padding-left: 34px;
+}
+.aboutAs .aboutAs__image .leib .leib-text span {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.aboutAs .aboutAs__image .leib .leib-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.aboutAs .aboutAs__content {
+  width: 62%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.aboutAs .aboutAs__content img {
+  position: absolute;
+  top: 377px;
+  left: 240px;
+}
+.aboutAs .aboutAs__content .about_content-text {
+  position: absolute;
+  top: 148px;
+  left: 187px;
+}
+.aboutAs .aboutAs__content .about_content-text span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+.aboutAs .aboutAs__content .about_content-text h2 {
+  padding-top: 8px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.aboutAs .aboutAs__content .about_content-text p {
+  font-family: Gilroy;
+  padding-top: 27px;
+  width: 542px;
+  height: 300px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #7C7C7C;
+}
+
+.workSteps {
+  width: 100%;
+  height: 531px;
+  background: #000000;
+  mix-blend-mode: normal;
+  position: relative;
+}
+.workSteps .workSteps__content {
+  position: absolute;
+  top: 65px;
+  left: 169px;
+}
+.workSteps .workSteps__content span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FFB800;
+}
+.workSteps .workSteps__content h3 {
+  margin-top: 8px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.workSteps .workSteps__content .workSteps__scheme {
+  margin-top: 97.5px;
+}
+.workSteps .workSteps__content .workSteps__scheme #a1 {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: center;
+}
+.workSteps .workSteps__content .workSteps__scheme .workSteps-circle1::after {
+  content: url("../img/icons/scheme/Subtract1.png");
+  position: absolute;
+  top: -26px;
+  right: 0;
+}
+.workSteps .workSteps__content .workSteps__scheme .workSteps-circle2::after {
+  content: url("../img/icons/scheme/Subtract2.png");
+  position: absolute;
+  top: -3px;
+  right: -4px;
+}
+.workSteps .workSteps__content .workSteps__scheme .workSteps-circle3::after {
+  content: url("../img/icons/scheme/Subtract3.png");
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+.workSteps .workSteps__content .workSteps__scheme .workSteps-circle4::after {
+  content: url("../img/icons/scheme/Subtract4.png");
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+.workSteps .workSteps__content .workSteps__scheme .workSteps-circle5::after {
+  content: url("../img/icons/scheme/Subtract5.png");
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+.workSteps .workSteps__content .workSteps__scheme .workSteps-circle6::after {
+  content: url("../img/icons/scheme/Subtract6.png");
+  position: absolute;
+  top: -3px;
+  right: -4px;
+}
+.workSteps .workSteps__content .workSteps__scheme #a2 {
+  width: 128px;
+  border: 1px solid #FFFFFF;
+}
+.workSteps .workSteps__content .workSteps__scheme #a3 {
+  width: 128px;
+  border: 1px solid #FFFFFF;
+}
+.workSteps .workSteps__content .workSteps__coments {
+  margin-top: 29px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.workSteps .workSteps__content p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio .portfolio__title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio .portfolio__title span {
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+.portfolio .portfolio__title h2 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.portfolio .portfolio__content {
+  width: 100%;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.portfolio .portfolio__content .portfolio__description {
+  padding-right: 5px;
+  flex-grow: 1;
+  height: 680px;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio-background {
+  position: absolute;
+  top: 227px;
+  left: 282px;
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__text {
+  width: 504px;
+  margin-left: 168px;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__text h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__text p {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__text .term {
+  margin-top: 31px;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__text .dwellingSpace {
+  margin-top: 10px;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__foto {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.portfolio .portfolio__content .portfolio__description .portfolio__foto .fotoItem {
+  margin-bottom: 5px;
+}
+.portfolio .portfolio__content .portfolio__slider {
+  width: 38%;
+  height: 100%;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio__slides {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio__slides .currentItem {
+  width: 100%;
+  height: 590px;
+  background-size: contain;
+  background-position: center;
+  opacity: 1;
+  z-index: 2;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio__slides .sliderItem {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1s;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav {
+  padding-left: 42px;
+  height: 94px;
+  background: #FFB800;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements {
+  width: 345px;
+  justify-content: space-between;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__indecators {
+  width: 93px;
+  justify-content: space-between;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__indecators .sliderNav__indecator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__indecators .active {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: white;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__controls {
+  justify-content: space-between;
+  width: 83px;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__controls .sliderNav__leftControls {
+  height: 20px;
+  width: 20px;
+  border-left: 3px solid rgba(255, 255, 255, 0.63);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.63);
+  transform: rotate(45deg);
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__controls .sliderNav__leftControls:hover {
+  cursor: pointer;
+  border-color: #FF9900;
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__controls .sliderNav__rightControls {
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid rgba(255, 255, 255, 0.63);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.63);
+  transform: rotate(-45deg);
+}
+.portfolio .portfolio__content .portfolio__slider .portfolio-sliderNav .sliderNav__elements .sliderNav__controls .sliderNav__rightControls:hover {
+  cursor: pointer;
+  border-color: #FF9900;
+}
+
+.reviews {
+  width: 100%;
+  height: 671px;
+  position: relative;
+  overflow: hidden;
+}
+.reviews .brackets {
+  position: absolute;
+  top: 32px;
+  left: 572px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 300px;
+  line-height: 400px;
+  letter-spacing: 0.01em;
+  color: rgba(4, 4, 4, 0.12);
+  transform: rotate(180deg);
+}
+.reviews img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.reviews .reviews__slider {
+  height: 100%;
+  width: 766px;
+  padding-top: 75px;
+  margin: 0 auto;
+  background: rgba(4, 4, 4, 0.4);
+  -webkit-backdrop-filter: blur(26px);
+          backdrop-filter: blur(26px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews .reviews__slider span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+.reviews .reviews__slider h5 {
+  margin-top: 8px;
+  margin-bottom: 82px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.reviews .reviews__slider .slider-container {
+  position: relative;
+}
+.reviews .reviews__slider .slider-container .slider-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.reviews .reviews__slider .slider-container .activated {
+  opacity: 1;
+  z-index: 2;
+}
+.reviews .reviews__slider .slider-container .activated p {
+  padding: 0 102px 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+.reviews .reviews__slider .slider-container .activated .user {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+.reviews .reviews__controls {
+  position: absolute;
+  bottom: 50px;
+  width: 200px;
+  justify-content: space-between;
+}
+.reviews .reviews__controls .leftButton {
+  height: 20px;
+  width: 20px;
+  border-left: 3px solid rgba(255, 255, 255, 0.63);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.63);
+  transform: rotate(45deg);
+}
+.reviews .reviews__controls .leftButton:hover {
+  cursor: pointer;
+  border-color: #FF9900;
+}
+.reviews .reviews__controls .pointers {
+  justify-content: space-between;
+  width: 90px;
+}
+.reviews .reviews__controls .pointers .pointer {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(196, 196, 196, 0.45);
+}
+.reviews .reviews__controls .pointers .actualPointer {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: white;
+}
+.reviews .reviews__controls .rightButton {
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid rgba(255, 255, 255, 0.63);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.63);
+  transform: rotate(-45deg);
+}
+.reviews .reviews__controls .rightButton:hover {
+  cursor: pointer;
+  border-color: #FF9900;
+}
+
+.connectionForm {
+  width: 100%;
+  height: 403px;
+  background: #FFB800;
+  padding: 45px 353px 73px 385px;
+}
+.connectionForm .connectionForm__content {
+  width: 705px;
+}
+.connectionForm .connectionForm__content h5 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.connectionForm .connectionForm__content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  padding-bottom: 43px;
+}
+.connectionForm .connectionForm__content .inputs {
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 42px;
+}
+.connectionForm .connectionForm__content .inputs input {
+  background: transparent;
+  border-bottom: 0.5px solid #FFFFFF;
+  width: 304px;
+}
+.connectionForm .connectionForm__content .inputs input:focus::-webkit-input-placeholder {
+  text-indent: 1000px;
+  -webkit-transition: text-indent 0.7s ease;
+  transition: text-indent 0.7s ease;
+}
+.connectionForm .connectionForm__content textarea {
+  resize: none;
+  background: transparent;
+  width: 100%;
+  border-bottom: 0.5px solid #FFFFFF;
+  overflow: hidden;
+}
+.connectionForm .connectionForm__content textarea:focus::-webkit-input-placeholder {
+  text-indent: 1000px;
+  -webkit-transition: text-indent 0.3s ease;
+  transition: text-indent 0.3s ease;
+}
+.connectionForm .connectionForm__content .button {
+  margin-top: 42px;
+  width: 128px;
+  height: 42px;
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFB800;
+}
+.connectionForm .connectionForm__content .button:hover {
+  cursor: pointer;
+  background: #d5caca;
+  color: #000000;
+}
+
+.footer {
+  width: 100%;
+  height: 403px;
+  padding-top: 114px;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer__content {
+  width: 84%;
+  margin-left: 70px;
+  justify-content: space-between;
+}
+.footer .footer__content .logoDescription {
+  width: 308px;
+}
+.footer .footer__content .logoDescription .logo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 80px;
+  letter-spacing: 0.07em;
+  color: #FFB800;
+}
+.footer .footer__content .logoDescription .description p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.7px;
+  color: #FFFFFF;
+}
+.footer .footer__content .footer__nav {
+  height: 100%;
+  justify-content: flex-end;
+}
+.footer .footer__content .footer__nav a {
+  margin-top: 23px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.footer .footer__content .footer__contacts {
+  height: 100%;
+  width: 150px;
+  justify-content: space-between;
+}
+.footer .footer__content .footer__contacts .footer__address {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.footer .footer__content .footer__contacts .footer__address b {
+  color: #FFFFFF;
+}
+.footer .footer__content .footer__contacts .footer__phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.footer .footer__content .footer__social {
+  height: 100%;
+  justify-content: flex-end;
+}
+.footer .footer__content .footer__social .footer__social-item {
+  margin-top: 21px;
+}
+.footer .futer__line {
+  margin-top: 92px;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.29);
+}
+.footer .allRights {
+  width: 84%;
+  margin-left: 70px;
+  height: 48px;
+  justify-content: flex-start;
+}
+.footer .allRights .allRights-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: rgba(255, 255, 255, 0.29);
+}
